@@ -1,6 +1,6 @@
 ---
 - name: Playbook to install python 3
-  hosts: test_server
+  hosts: localhost
   become: true
   gather_facts: false
 
